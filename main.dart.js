@@ -60216,7 +60216,7 @@ t.xz.a(n)
 n.href=p
 s=n.style
 s.display="none"
-n.download=A.f(r.a)+".json"
+n.download=A.f(r.a)+"_"+A.f(r.b)+"_"+A.f(r.c)+"_"+A.f(r.d)+".json"
 r=o.body
 if(r!=null)r.appendChild(n)
 n.click()
