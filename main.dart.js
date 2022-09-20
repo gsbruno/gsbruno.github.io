@@ -60305,7 +60305,9 @@ $S:35}
 A.oD.prototype={
 gzz(){return new A.dn(B.ba,A.Xe(A.b([A.tx(A.pQ(B.z6,null,new A.UL(this))),B.c8,A.tx(A.pQ(B.z7,B.d1,new A.UM(this))),B.c8,A.tx(A.pQ(B.z2,B.d1,new A.UN(this)))],t.F),B.dm,B.dW),null)},
 eO(){var s=this,r=s.a
-return r!=null&&s.b!=null&&s.c!=null?A.aA(["midiCode",A.ang(r.toLowerCase()),"start",s.b,"end",s.c],t.N,t.bo):null}}
+if(r!=null&&s.b!=null&&s.c!=null){r.toString
+r=A.aA(["midiCode",A.ang(r),"start",s.b,"end",s.c],t.N,t.bo)}else r=null
+return r}}
 A.UL.prototype={
 $1(a){this.a.a=a},
 $S:17}
@@ -64885,8 +64887,8 @@ $.adz=1
 $.ap9=!1
 $.B=null
 $.aeh=1
-$.and=A.b(["c","d","e","f","g","a","b"],t.s)
-$.ane=A.b([24,26,28,29,31,33,34],t.t)
+$.and=A.b(["C","D","E","F","G","A","B"],t.s)
+$.ane=A.b([24,26,28,29,31,33,35],t.t)
 $.anf=A.b(["1","2","3","4","5","6","7","8"],t.s)
 $.anc=A.b(["bb","b","*","#","##"],t.s)
 $.add=null})();(function lazyInitializers(){var s=hunkHelpers.lazyFinal,r=hunkHelpers.lazy
