@@ -1,6 +1,6 @@
 {
-    "name": "json_creator",
-    "short_name": "json_creator",
+    "name": "json_creator_dataset",
+    "short_name": "json_creator_dataset",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
